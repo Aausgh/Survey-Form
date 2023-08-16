@@ -1,0 +1,53 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 18px;
+    /* border: 5px solid #84ea06; */
+    box-shadow: 0 0 10px rgb(12, 12, 12);
+    border-radius: 5px;
+    background-color: #060606;
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-top: 15px;
+  }
+  
+  #name, #address, #contact, #gender, #rating {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  #fname, #lname, #saddress, #city, #state, #zip, #country, #phone, #email {
+    width: 42%;
+    padding: 7px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+  }
+
+  #saddress{
+    width: 95%;
+  }
+  
+  
+  .btn {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
